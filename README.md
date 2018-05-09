@@ -1,0 +1,2 @@
+# Description 
+This is a text-based game where you are placed in land filled with dragons and they live in caves. You must confront these dragons and go inside these caves but you must choose carefully one cave will lead you to a terrible death where another cave you will be handsomely gifted with some treasure. 
