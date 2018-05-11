@@ -5,23 +5,23 @@ gamePlay = True
 
 
 def displayIntro():
-    print("You are in a land filled with dragons")
-    print("They live in caves where the sun can't reach them")
-    print("Some of the dragons are friendly and can share their treasure with you")
-    print("Other dragons are greedy, hungry and more dragon-ly")
-    print("You are facing two cave entrances")
-    print("You have to choose a cave ...")
+    print("You are in a land in which Chuck Norris resides") 
+    print("He hides in the darkness ready to pounce")
+    print("Sometimes he is friendly and will provide you with assistance to further your journey")
+    print("Other times he will destroy you like he destroyed your mother.")
+    print("You are at a crossroads, there are two pathways) 
+    print("You have to choose a pathway ...") 
     print()
 
 
 def displayCaveEntrance():
-    print("You walked towards the cave entrance....")
+    print("You walk towards the pathway...")
     time.sleep(2)
-    print("It is dark, spooky and has weird sounds")
+    print("It is  ")
     time.sleep(2)
-    print("You see a dragon walking towards you.....")
+    print("You see Chuck Norris walking towards you.....") 
     time.sleep(2)
-    print("And Then it.... !!!")
+    print("And Then he.... !!!")
     time.sleep(2)
     
     
@@ -30,28 +30,28 @@ while gamePlay:
     goodCave = random.randint(1, 2)
 
     displayIntro()
-    print("Which cave would you like to go into? (1 or 2)")
+    print("Which pathway would you like to go into? (1 or 2)")
     playerChosenCave = int(input())
     if playerChosenCave == goodCave:
         displayCaveEntrance()
-        print("Smiles at you and gives you his treasure :)")
+        print("You have been blessed with Chuck Norris wisdom:)")
         time.sleep(1)
-        print("Congratulations! you have won")
+        print("Congratulations! you have won, you may continue on your journey:")
     else:
         displayCaveEntrance()
-        print("Starts howling at you!")
+        print("He gives you a wink.")
         time.sleep(1)
-        print("You keep running ....")
+        print("You are perplexed")
         time.sleep(3)
-        print("No Way Out!!! You are trapped.")
+        print("He approaches you") 
         time.sleep(2)
-        print("You are terrified as you see the dragon approaches ...")
+        print("You are nervous as he is coming closer at you ...")
         time.sleep(2)
-        print("You then see it opens its mouth and ......")
+        print("You then see him unzipping his pants ......")
         time.sleep(2)
-        print("Complete darkness.....")
+        print("He then proceeds to anal rape the shiznit out of you")
         time.sleep(1)
-        print("You Lost :(")
+        print("You die a happy man:(")
 
     print()
     print("Do you want to play again? (yes or no)")
