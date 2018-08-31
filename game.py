@@ -9,7 +9,7 @@ def displayIntro():
     print("He hides in the darkness ready to pounce")
     print("Sometimes he is friendly and will provide you with assistance to further your journey")
     print("Other times he will destroy you like he destroyed your mother.")
-    print("You are at a crossroads, there are two pathways) 
+    print("You are at a crossroads, there are two pathways") 
     print("You have to choose a pathway ...") 
     print()
 
